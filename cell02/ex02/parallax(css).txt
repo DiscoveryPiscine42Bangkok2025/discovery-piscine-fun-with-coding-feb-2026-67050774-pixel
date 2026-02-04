@@ -1,0 +1,45 @@
+body, html {
+    margin: 0;
+    height: 100%;
+}
+
+/* รูปพื้นหลังแรก */
+.parallax1 {
+    background-image: url("https://img.pikbest.com/backgrounds/20241216/3d-cute-pastel-background-with-soft-clouds-and-gentle-glow_11261151.jpg!sw800");
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+/* รูปพื้นหลังที่สอง */
+.parallax2 {
+    background-image: url("https://marketplace.canva.com/EAGetpT91wc/1/0/450w/canva-หลากสี-พาสเทล-ภาพประกอบ-กราฟิก-น่ารัก-ดอกไม้-วอลเปเปอร์มือถือ-ho5H0N4QgGU.jpg");
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+/* ข้อความกลางรูป */
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 40px;
+}
+
+/* กล่องสีดำตรงกลาง */
+.content {
+    height: 300px;
+    background-color: black;
+    color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
